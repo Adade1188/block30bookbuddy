@@ -1,0 +1,99 @@
+
+
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+button,
+input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+body {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navigation bar styles */
+nav {
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Form styles */
+form {
+  margin-bottom: 20px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+button {
+  margin-right: 10px;
+}
+
+/* Book list styles */
+.book-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.book-list li {
+  margin-bottom: 10px;
+}
+
+/* Account details styles */
+.account-details {
+  margin-top: 20px;
+}
+
+.account-details h2 {
+  margin-bottom: 10px;
+}
+
+.account-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.account-details ul li {
+  margin-bottom: 5px;
+}
+
+/* LoginForm and RegistrationForm styles */
+form {
+  max-width: 300px;
+  margin: 0 auto;
+}
